@@ -1,0 +1,2 @@
+oleg@oleg-VirtualBox:~$
+oleg@oleg-VirtualBox:~$ mysqldump mysql help_keyword > my_sql_help_keyword.sql
