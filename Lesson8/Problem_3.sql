@@ -10,5 +10,5 @@ SELECT count(1) FROM
 		users u
 		JOIN profiles p ON u.id = p.user_id
 		ORDER BY 2 DESC
-		LIMIT 10) u
-	ON l.user_id = u.id;
+		LIMIT 10) u1
+	ON l.target_id = u1.id;
