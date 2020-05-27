@@ -25,7 +25,7 @@ SELECT
 	+
 	(SELECT count(1) * 5 FROM users u5 JOIN media me ON me.user_id = u5.id where u5.id = u.id) -- вес медиа контента
 	+
-	(SELECT count(1) * 5 FROM users u6 JOIN posts p ON p.user_id = u6.id where u6.id = u.id) -- вес постов
+	(SELECT count(1) * 10 FROM users u6 JOIN posts p ON p.user_id = u6.id where u6.id = u.id) -- вес постов
 	as ACTIVE_RATE
 FROM users u
 ORDER BY 2 LIMIT 10; 
