@@ -1,6 +1,6 @@
 USE vk;
 
-show CREATE table media;
+-- show CREATE table media;
 
 /*
 communities
